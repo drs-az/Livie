@@ -67,18 +67,18 @@ All data is erased with the /reset command. Privacy first. Always.
 
 ---
 
-🛠 Contributing
+## 🛠 Contributing
 
 Feel free to suggest improvements, submit issues, or fork your own version of Livie. Ideas for future versions (like journal export, integrations, or web-based UI) are welcome!
 
 
 ---
 
-🧘‍♀️ License
+## 🧘‍♀️ License
 
 Livie is open source.
 
 
 ---
 
-Made with care and curiosity 💚
+## Made with care and curiosity 💚
