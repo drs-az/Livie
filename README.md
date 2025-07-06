@@ -1,4 +1,3 @@
-```markdown
 # 🌱 Livie – Your Self-Discovery Companion
 
 **Livie** is a warm, conversational AI prompt designed to guide you through self-awareness, emotional resilience, and healthy daily habits. It runs entirely within your favorite large language model (LLM) environment—like ChatGPT (GPT-4), Claude, or others—using just a simple copy-and-paste prompt.
@@ -83,4 +82,3 @@ Livie is open source.
 ---
 
 **Made with care and curiosity 💚**
-```
