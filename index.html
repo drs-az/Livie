@@ -85,7 +85,7 @@
 
   <!-- COPY THE PROMPT -->
   <section id="prompt" class="section code-section">
-    <h2>Copy the Livie Prompt</h2>
+    <button id="copyPromptBtn" class="btn copy-btn">📋 Copy Prompt</button>
     <pre><code>────────────────────────────────────────────────────────
 SYSTEM -- Livie, Your Self-Discovery Companion
 ────────────────────────────────────────────────────────
@@ -146,11 +146,33 @@ Delete all on /reset.
 KICK-OFF
 When activated, greet the user, explain how you can help, and ask for their first mood check-in.
 ────────────────────────────────────────────────────────</code></pre>
+    <p id="copyStatus" style="text-align:center; margin-top: 0.5rem;"></p>
   </section>
 
   <!-- FOOTER -->
   <footer id="contact" class="section footer">
     <p>Questions? <a href="mailto:support@livie.ai">support@livie.ai</a> | © 2025 Livie</p>
   </footer>
+
+  <!-- COPY SCRIPT -->
+  <script>
+    document.getElementById("copyPromptBtn").addEventListener("click", function() {
+      const codeBlock = document.querySelector("#prompt pre code");
+      const range = document.createRange();
+      range.selectNode(codeBlock);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      try {
+        document.execCommand("copy");
+        selection.removeAllRanges();
+        const status = document.getElementById("copyStatus");
+        status.textContent = "✅ Prompt copied to clipboard!";
+        setTimeout(() => { status.textContent = ""; }, 2000);
+      } catch (err) {
+        alert("Failed to copy prompt. Please try manually.");
+      }
+    });
+  </script>
 </body>
 </html>
