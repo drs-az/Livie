@@ -154,6 +154,22 @@ a:hover {
   color: var(--color-purple);
 }
 
+  .like-button {
+    display: inline-block;
+    background-color: #1877f2;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: background-color 0.2s ease;
+  }
+
+  .like-button:hover {
+    background-color: #145dbf;
+  }
+
 /* Responsive */
 @media (max-width: 768px) {
   body {
