@@ -88,6 +88,9 @@ a:hover {
   padding: 0.75rem 1.5rem;
   border-radius: var(--border-radius);
   font-weight: bold;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  text-align: center;
   transition: background 0.2s ease;
 }
 .btn:hover {
@@ -138,6 +141,12 @@ a:hover {
   overflow-x: auto;
   font-family: Consolas, Menlo, monospace;
   line-height: 1.4;
+}
+.code-section {
+  text-align: center;
+}
+.code-section .btn {
+  margin: 0.5rem 0;
 }
 .code-section h2 {
   margin-bottom: var(--spacing);
