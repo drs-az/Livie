@@ -141,9 +141,10 @@ a:hover {
   overflow-x: auto;
   font-family: Consolas, Menlo, monospace;
   line-height: 1.4;
+  text-align: left;
 }
 .code-section {
-  text-align: left;
+  text-align: center;
 }
 .code-section .btn {
   margin: 0.5rem 0;
