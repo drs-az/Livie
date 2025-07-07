@@ -19,7 +19,7 @@
 ## 🚀 Getting Started
 
 1. Open your preferred AI platform (ChatGPT, Claude, Pi, etc.).  
-2. Copy the full Livie system prompt (coming soon on the [landing page](#)).  
+2. Copy the full Livie system prompt on the [Livie landing page](https://drs-az.github.io/Livie).  
 3. Paste it into a new chat.  
 4. Say hi, share your mood, and start your self-discovery journey.
 
